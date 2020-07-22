@@ -1,0 +1,33 @@
+<div class="top">
+    <p id="menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </p>
+    <a href="index.html" title="首頁"><h1 class="logo"></h1></a>
+    <a href=""><img src="img/icon/custmerService1.png" alt="" class="service"></a>
+    <div id="Mnav">
+       <ul>
+           <li><a href="signUp.html">登入</a></li>
+           <li><a href=" ">關於MiTRADE</a></li>
+           <li><a href=" ">聯繫客服</a></li>
+           <li><a href=" ">選擇語言</a></li>
+           <li><a href=" ">意見反饋</a></li>
+           <li><a href=" ">設置</a></li>
+       </ul>
+    </div>
+</div>
+<script>
+$(document).ready(function(){
+let $W=$(window).width();
+let $H=$(window).height();
+
+    $('#menu').click(function(){
+        $('header #Mnav').fadeToggle(800);
+        $('.top>a .logo').toggleClass('logoZIndex');
+        $("body").toggleClass('menuOpen');
+    });
+});
+
+
+</script>
