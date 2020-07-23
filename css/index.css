@@ -126,7 +126,7 @@ border-bottom-right-radius:5px;border-left:3px solid #0c94e2; }
     .owl-carousel .owl-nav button.owl-prev span, .owl-carousel .owl-nav button.owl-next span{font-size:30px;}
 }
 @media(max-width:500px){
-    .fourIcon{margin: 30px auto 40px;}
+    .fourIcon{margin:0 auto 30px;}
     .fourIcon .item p {font-size:14px;}
     #price .item .small span{font-size: 14px;margin: 0 3px;}
     #price .item .title, #price .item .big{font-size:18px;}
