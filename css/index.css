@@ -34,24 +34,7 @@
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span{background:#00a0e6;box-shadow:0 1px 1px #00459d;}
 .owl-theme .owl-dots .owl-dot span{background:#74cbff;box-shadow:0 1px 1px #068de5;}
-/*
-#learn{margin:40px auto;padding:30px 0;width:98%;}
-#learn .owl-nav.disabled+.owl-dots{margin-top: 20px;}
-#learn .owl-dots .owl-dot.active span, #learn .owl-dots .owl-dot:hover span {
-    box-shadow: 0 1px 1px #a08b70;
-    background:#A79987;
-}
-#learn .owl-dots .owl-dot span {
-    background: #d8c7ae;
-    box-shadow: 0 1px 1px #a08a68;
-}
-#learn .owl-stage-outer{height: 120px;width:100%;padding:0 10px;box-sizing: border-box;}
-#learn .item{box-shadow:5px 4px 2px #d9d9d9;border-top-left-radius:20px;border-bottom-left-radius:20px;
-border-bottom-right-radius:10px; border-top-right-radius:10px;padding: 30px 0;   
-display: flex;justify-content:center;}
-#learn .item .left{width:70%;}
-#learn .item img{width:56px;object-fit: contain;}
-*/
+
 #learn{width:100%;margin:40px auto;overflow: scroll;}
 #learn .learnWP{display: flex;justify-content: flex-start;align-items: center;width:137%;height: 150px;overflow: hidden;}
 .learnWP .item{
@@ -109,13 +92,14 @@ background: linear-gradient(to bottom,  #008fdc 0%,#006fc1 48%,#0050a6 100%); /*
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008fdc', endColorstr='#0050a6',GradientType=0 ); /* IE6-9 */
 }
 .newsWP .title p,.newsWP .title a{color: #fff;}
-.newsWP .title p{font-size: 22px;}
+.newsWP .title p{font-size: 18px;}
 .newsWP ul{padding:40px 40px 20px;box-sizing: border-box;}
 .newsWP ul li{margin-bottom:25px;box-shadow:4px 5px 3px #e5e5e5;padding:20px 10px 10px 20px;box-sizing: border-box;
 border-bottom-right-radius:5px;border-left:3px solid #0c94e2; }
 .newsWP ul li .dateTimt{display: flex;justify-content: space-between;align-items: center;padding-bottom: 10px;}
 .newsWP ul li .dateTimt .time{color: #048BD9;}
 .newsWP ul li .dateTimt .date,.newsWP ul li p{color: #010646;}
+#learn .item p,#learn .item .title{color:#444; }
 @media(max-width:1100px){
 .announcement{width: 90%;margin:20px auto;}
     .news{width: 90%;margin:0 auto;}
