@@ -121,6 +121,7 @@ border-bottom-right-radius:5px;border-left:3px solid #0c94e2; }
     #bannerWP .item{width:500px;}
     .learnWP .item{width:43%;}
     #learn .learnWP{width:170%;}
+    #learn .learnWP .item .left p{line-height:32px;}
 }
 @media(max-width:520px){
     .fourIcon{width:95%;}
@@ -175,3 +176,5 @@ border-bottom-right-radius:5px;border-left:3px solid #0c94e2; }
 .newsWP ul{padding:30px 20px 20px;}
      #bannerWP .item{width:270px;}
 }
+
+
