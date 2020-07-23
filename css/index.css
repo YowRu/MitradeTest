@@ -130,7 +130,7 @@ border-bottom-right-radius:5px;border-left:3px solid #0c94e2; }
     .fourIcon .item p {font-size:14px;}
     #price .item .small span{font-size: 14px;margin: 0 3px;}
     #price .item .title, #price .item .big{font-size:18px;}
-    #price{margin: 30px auto 40px;}
+    #price{margin: 30px auto 20px;}
     #learn .item img{width:45px;}
     #learn .item p{font-size:14px;}
 }
