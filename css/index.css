@@ -103,7 +103,7 @@ border-bottom-right-radius:5px;border-left:3px solid #0c94e2; }
 #learn .item p,#learn .item .title{color:#444; }
 @media(max-width:1100px){
 .announcement{width: 90%;margin:20px auto;}
-    .news{width: 90%;margin:0 auto;}
+    .news{width: 90%;margin:0 auto 30px;}
     #learn{width: 90%;}
     #bannerWP .item{width: 600px;}
 }
