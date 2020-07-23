@@ -6,11 +6,11 @@ ul{list-style-type:none;}
 :hover,:focus{outline:none;}
 html {
     overflow: -moz-hidden-unscrollable;
-    height: 100%;
+    height: 100vh;
 }
 body {
     -ms-overflow-style: none;
-    height: 100%;
+    height: 100vh;
     overflow: scroll;
 }
 ::-webkit-scrollbar {width: 0px;background:#ffffff;height:8px;}
