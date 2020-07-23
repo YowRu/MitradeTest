@@ -42,10 +42,10 @@
     border-top-left-radius:10px;border-bottom-left-radius:10px;
 border-bottom-right-radius:5px; border-top-right-radius:5px;padding: 30px 0;box-sizing: border-box;  
 display: flex;justify-content:center;width:33%;margin: 0 5px;}
-#learn .learnWP .item .left{width: 60%;display: flex;flex-direction: column; justify-content: flex-start;align-items: center;}
+#learn .learnWP .item .left{width: 60%;display: flex;flex-direction: column; justify-content: flex-start;align-items: flex-start;}
 #learn .learnWP .item img {margin-left: 10px;width:56px;object-fit: contain;}
-#learn .learnWP .item .left p,#learn .item .left .title{color:#444;line-height:44px;}
-
+#learn .learnWP .item .left p,#learn .item .left .title{color:#444;}
+#learn .item .left .title{margin-bottom: 10px;}
 /*fourIcon*/
 .fourIcon{width: 90%;display: flex;justify-content: center;align-items: center;margin:30px auto;}
 .fourIcon .item{width:22%;margin:10px auto;text-align: center;}
@@ -121,7 +121,6 @@ border-bottom-right-radius:5px;border-left:3px solid #0c94e2; }
     #bannerWP .item{width:500px;}
     .learnWP .item{width:43%;}
     #learn .learnWP{width:170%;}
-    #learn .learnWP .item .left p{line-height:32px;}
 }
 @media(max-width:520px){
     .fourIcon{width:95%;}
